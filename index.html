@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gado Gado Prapatan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="wrap nav-wrap">
+            <a href="#home" class="brand">
+                <svg class="brand-logo" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <circle cx="14" cy="14" r="13" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M8 17c2-4 4-6 6-6s4 2 6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="14" cy="10" r="2" fill="currentColor"/>
+                </svg>
+                <div>
+                    <span class="brand-name">Gado Gado</span>
+                    <span class="brand-sub">Prapatan</span>
+                </div>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#cerita">Cerita</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#pesan-online">Order Online</a></li>
+                <li><a href="#ulasan">Ulasan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+            <a href="https://wa.me/6285183103489" target="_blank" class="nav-cta">Pesan Sekarang</a>
+            <button class="burger" id="burger" aria-label="Menu">
+                <span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="home">
+        <div class="wrap hero-inner">
+            <div class="hero-text">
+                <p class="hero-tag">Est. 2020 &middot; Jakarta Pusat</p>
+                <h1>Bumbu kacang <em>yang bikin</em> kangen.</h1>
+                <p class="hero-p">Racikan turun-temurun, sayur segar tiap pagi, dan cita rasa yang nggak bisa ditiru. Ini bukan cuma gado-gado &mdash; ini Prapatan.</p>
+                <div class="hero-btns">
+                    <a href="#menu" class="cta">Lihat Menu</a>
+                    <a href="https://wa.me/6285183103489?text=Halo%20kak,%20mau%20pesan%20dong!" target="_blank" class="cta cta-ghost">Chat WhatsApp</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-illust">
+                    <svg viewBox="0 0 260 260" fill="none" class="hero-svg">
+                        <circle cx="130" cy="130" r="120" fill="#f0ebe2" stroke="#d4c4a8" stroke-width="1.5"/>
+                        <ellipse cx="130" cy="150" rx="90" ry="30" fill="#d4c4a8" opacity="0.3"/>
+                        <path d="M60 130c10-30 30-50 70-50s60 20 70 50" stroke="#c4704b" stroke-width="2.5" stroke-linecap="round"/>
+                        <circle cx="95" cy="115" r="8" fill="#5c6b4f" opacity="0.7"/>
+                        <circle cx="135" cy="105" r="6" fill="#c4704b" opacity="0.6"/>
+                        <circle cx="160" cy="118" r="7" fill="#8b6f47" opacity="0.6"/>
+                        <circle cx="115" cy="100" r="5" fill="#d4a373" opacity="0.7"/>
+                        <rect x="80" y="135" width="100" height="3" rx="1.5" fill="#c4704b" opacity="0.3"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="hero-strip">
+            <div class="strip-scroll">
+                <span>GADO GADO PRAPATAN</span>
+                <span>&middot;</span>
+                <span>SEGAR TIAP HARI</span>
+                <span>&middot;</span>
+                <span>BUMBU KACANG ASLI</span>
+                <span>&middot;</span>
+                <span>SEJAK 2020</span>
+                <span>&middot;</span>
+                <span>GADO GADO PRAPATAN</span>
+                <span>&middot;</span>
+                <span>SEGAR TIAP HARI</span>
+                <span>&middot;</span>
+                <span>BUMBU KACANG ASLI</span>
+                <span>&middot;</span>
+                <span>SEJAK 2020</span>
+                <span>&middot;</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cerita -->
+    <section class="sec" id="cerita">
+        <div class="wrap">
+            <div class="cerita-layout">
+                <div class="cerita-left">
+                    <span class="label">Kenapa Kami?</span>
+                    <h2>Bukan sekadar <em>gado-gado biasa.</em></h2>
+                    <p>Semuanya dimulai dari gerobak kecil di pinggir Jl. Prapatan. Satu resep bumbu kacang dari Ibu, sayuran dari pasar subuh, dan tekad untuk bikin gado-gado yang jujur rasanya.</p>
+                    <p>Sekarang Anda bisa pesan dari mana saja &mdash; tapi rasanya tetap sama seperti hari pertama.</p>
+                </div>
+                <div class="cerita-right">
+                    <div class="cerita-card">
+                        <span class="cerita-num">01</span>
+                        <h3>Sayur Segar</h3>
+                        <p>Dipilih langsung dari pasar setiap subuh. Bukan stok kemarin.</p>
+                    </div>
+                    <div class="cerita-card">
+                        <span class="cerita-num">02</span>
+                        <h3>Bumbu Asli</h3>
+                        <p>Kacang tanah pilihan, diulek manual. Gurih alami tanpa MSG.</p>
+                    </div>
+                    <div class="cerita-card">
+                        <span class="cerita-num">03</span>
+                        <h3>Porsi Jujur</h3>
+                        <p>Nggak pelit isi, nggak lebay harga. Pas di perut, pas di kantong.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="sec sec-warm" id="menu">
+        <div class="wrap">
+            <div class="sec-head">
+                <span class="label">Mau Makan Apa?</span>
+                <h2>Menu Pilihan</h2>
+            </div>
+
+            <div class="tab-roll-container">
+                <button class="tab-roll-btn tab-roll-left" id="tabRollLeft" aria-label="Scroll Kiri">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div class="tab-bar" id="tabBar">
+                    <button class="tab active" data-filter="semua">Semua</button>
+                    <button class="tab" data-filter="gado-gado">Gado-Gado</button>
+                    <button class="tab" data-filter="ketoprak">Ketoprak</button>
+                    <button class="tab" data-filter="paket">Paket Komplit</button>
+                    <button class="tab" data-filter="minuman">Minuman</button>
+                    <button class="tab" data-filter="camilan">Camilan</button>
+                </div>
+                <button class="tab-roll-btn tab-roll-right" id="tabRollRight" aria-label="Scroll Kanan">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+
+                <!-- 1: Gado gado lontong original -->
+                <div class="mc" data-cat="gado-gado"
+                     data-name="Gado Gado Lontong Original" data-price="17000"
+                     data-desc="Gado gado lontong original dengan sayuran segar serta telur separuh."
+                     data-info="Porsi pas &middot; Telur separuh (setengah) &middot; Bumbu kacang khas">
+                    <div class="mc-img">
+                        <img src="image/gadogado-telur separuh.jpg" alt="Gado Gado Lontong Original" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <span class="mc-tag tag-best">Favorit</span>
+                        <h3>Gado Gado Lontong Original</h3>
+                        <p class="mc-price">Rp 17.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 2: Gado gado lontong telur dadar -->
+                <div class="mc" data-cat="gado-gado"
+                     data-name="Gado Gado Lontong Telur Dadar" data-price="22000"
+                     data-desc="Gado gado lontong original dengan sayuran segar serta telur dadar gurih yang renyah di pinggirnya."
+                     data-info="Telur dadar gurih &middot; Sayuran segar pilihan &middot; Lontong pulen">
+                    <div class="mc-img">
+                        <img src="image/telur dadar.jpeg" alt="Gado Gado Lontong Telur Dadar" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <span class="mc-tag tag-new">Spesial</span>
+                        <h3>Gado Gado Lontong Telur Dadar</h3>
+                        <p class="mc-price">Rp 22.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 3: Gado gado lontong telur ceplok -->
+                <div class="mc" data-cat="gado-gado"
+                     data-name="Gado Gado Lontong Telur Ceplok" data-price="22000"
+                     data-desc="Gado gado lontong original dengan sayuran segar serta telur ceplok (mata sapi) hangat."
+                     data-info="Telur ceplok hangat &middot; Bumbu kacang melimpah &middot; Kerupuk gurih">
+                    <div class="mc-img">
+                        <img src="image/ceplok1.jpeg" alt="Gado Gado Lontong Telur Ceplok" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <h3>Gado Gado Lontong Telur Ceplok</h3>
+                        <p class="mc-price">Rp 22.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 4: Gado Gado Lontong Telur Bulat -->
+                <div class="mc" data-cat="gado-gado"
+                     data-name="Gado Gado Lontong Telur Bulat" data-price="21000"
+                     data-desc="Gado Gado Lontong Original dengan sayuran segar beserta Telur Bulat (Utuh)."
+                     data-info="1 butir telur utuh &middot; Sayuran segar harian &middot; Porsi kenyang">
+                    <div class="mc-img">
+                        <img src="image/bulat.jpg" alt="Gado Gado Lontong Telur Bulat" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <h3>Gado Gado Lontong Telur Bulat</h3>
+                        <p class="mc-price">Rp 21.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 5: Gado Gado Lontong Taburan Kacang Mete -->
+                <div class="mc" data-cat="gado-gado"
+                     data-name="Gado Gado Lontong Taburan Kacang Mete" data-price="20000"
+                     data-desc="Gado gado lontong dengan sayuran segar beserta Taburan Kacang Mete + Telur Setengah."
+                     data-info="Ekstra taburan mete &middot; Telur setengah &middot; Gurih &amp; renyah">
+                    <div class="mc-img">
+                        <img src="image/mete.jpg" alt="Gado Gado Lontong Taburan Kacang Mete" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <span class="mc-tag tag-new">Gurih</span>
+                        <h3>Gado Gado Lontong Taburan Kacang Mete</h3>
+                        <p class="mc-price">Rp 20.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 6: Gado Gado Lontong Taburan Kacang Tanah -->
+                <div class="mc" data-cat="gado-gado"
+                     data-name="Gado Gado Lontong Taburan Kacang Tanah" data-price="17000"
+                     data-desc="Gado Gado Lontong Original dengan sayuran segar beserta Taburan Kacang Tanah + Telur Setengah."
+                     data-info="Taburan kacang tanah sangrai &middot; Telur setengah &middot; Autentik">
+                    <div class="mc-img">
+                        <img src="image/tanah.jpg" alt="Gado Gado Lontong Taburan Kacang Tanah" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <h3>Gado Gado Lontong Taburan Kacang Tanah</h3>
+                        <p class="mc-price">Rp 17.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 7: Gado-Gado Komplit -->
+                <div class="mc" data-cat="paket"
+                     data-name="Gado-Gado Komplit" data-price="20000"
+                     data-desc="Paket Lengkap! Gado Gado Lontong + Telur Separuh (Setengah) + Es Teh Manis."
+                     data-info="Paket hemat lengkap &middot; Termasuk Es Teh Manis &middot; Siap santap">
+                    <div class="mc-img">
+                        <img src="image/ketoprak/komplit.png" alt="Gado-Gado Komplit" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <span class="mc-tag tag-best">Paket Hemat</span>
+                        <h3>Gado-Gado Komplit</h3>
+                        <p class="mc-price">Rp 20.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 8: Gado-Gado Bumbu Mete (Mede) -->
+                <div class="mc" data-cat="gado-gado"
+                     data-name="Gado-Gado Bumbu Mete (Mede)" data-price="35000"
+                     data-desc="Gado Gado Sayuran lengkap dengan racikan Bumbu Mede istimewa yang gurih creamy + Telur Separuh (Setengah)."
+                     data-info="Premium bumbu mete asli &middot; Rasa gurih khas &middot; Telur separuh">
+                    <div class="mc-img">
+                        <img src="image/gado-gado.jpg" alt="Gado-Gado Bumbu Mete (Mede)" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <span class="mc-tag tag-hot">Premium</span>
+                        <h3>Gado-Gado Bumbu Mete (Mede)</h3>
+                        <p class="mc-price">Rp 35.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 9: Ketoprak Original -->
+                <div class="mc" data-cat="ketoprak"
+                     data-name="Ketoprak Original" data-price="17000"
+                     data-desc="Ketoprak dengan sayuran lengkap + Telur Separuh (Setengah)."
+                     data-info="Sayuran lengkap &middot; Bihun &amp; tahu &middot; Telur separuh">
+                    <div class="mc-img">
+                        <img src="image/ketoprak/ori.jpg" alt="Ketoprak Original" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <span class="mc-tag tag-best">Favorit</span>
+                        <h3>Ketoprak Original</h3>
+                        <p class="mc-price">Rp 17.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 10: Ketoprak Telur Dadar -->
+                <div class="mc" data-cat="ketoprak"
+                     data-name="Ketoprak Telur Dadar" data-price="21000"
+                     data-desc="Ketoprak dengan sayuran lengkap + Telur Dadar."
+                     data-info="Telur dadar gurih &middot; Sayuran lengkap &middot; Kerupuk melimpah">
+                    <div class="mc-img">
+                        <img src="image/ketoprak/dadar.png" alt="Ketoprak Telur Dadar" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <span class="mc-tag tag-new">Spesial</span>
+                        <h3>Ketoprak Telur Dadar</h3>
+                        <p class="mc-price">Rp 21.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 11: Ketoprak Telur Ceplok -->
+                <div class="mc" data-cat="ketoprak"
+                     data-name="Ketoprak Telur Ceplok" data-price="21000"
+                     data-desc="Ketoprak dengan sayuran lengkap + Telur Ceplok."
+                     data-info="Telur ceplok hangat &middot; Bumbu kacang gurih &middot; Sayuran segar">
+                    <div class="mc-img">
+                        <img src="image/ketoprak/ceplok.png" alt="Ketoprak Telur Ceplok" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <h3>Ketoprak Telur Ceplok</h3>
+                        <p class="mc-price">Rp 21.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 12: Ketoprak Telur Bulat -->
+                <div class="mc" data-cat="ketoprak"
+                     data-name="Ketoprak Telur Bulat" data-price="21000"
+                     data-desc="Ketoprak dengan sayuran lengkap + Telur Bulat (Utuh)."
+                     data-info="1 butir telur utuh &middot; Porsi kenyang &middot; Bumbu kacang mantap">
+                    <div class="mc-img">
+                        <img src="image/ketoprak/bulat.jpeg" alt="Ketoprak Telur Bulat" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <h3>Ketoprak Telur Bulat</h3>
+                        <p class="mc-price">Rp 21.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 13: Ketoprak Komplit -->
+                <div class="mc" data-cat="ketoprak paket"
+                     data-name="Ketoprak Komplit" data-price="20000"
+                     data-desc="Ketoprak dengan sayuran lengkap + Telur Separuh (Setengah) + Es Teh Manis."
+                     data-info="Paket lengkap &middot; Termasuk Es Teh Manis &middot; Telur separuh">
+                    <div class="mc-img">
+                        <img src="image/ketoprak/komplit.png" alt="Ketoprak Komplit" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <span class="mc-tag tag-best">Favorit</span>
+                        <h3>Ketoprak Komplit</h3>
+                        <p class="mc-price">Rp 20.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- 14: Ketoprak Taburan Kacang Mete (Mede) -->
+                <div class="mc" data-cat="ketoprak"
+                     data-name="Ketoprak Taburan Kacang Mete (Mede)" data-price="20000"
+                     data-desc="Ketoprak dengan sayuran lengkap + Telur Setengah + Taburan Kacang Mete (Mede)."
+                     data-info="Taburan kacang mete asli &middot; Telur setengah &middot; Gurih renyah">
+                    <div class="mc-img">
+                        <img src="image/ketoprak/mete.png" alt="Ketoprak Taburan Kacang Mete (Mede)" loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <span class="mc-tag tag-best">Favorit</span>
+                        <h3>Ketoprak Taburan Kacang Mete (Mede)</h3>
+                        <p class="mc-price">Rp 20.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+                <!-- Minuman: Es Teh Manis -->
+                <div class="mc" data-cat="minuman"
+                     data-name="Jus Mangga " data-price="23000"
+                     data-desc="Jus Buah Mangga asli tanpa sirup buatan. manis dan lezat cocok untuk menemani makan kalian"
+                     data-info="Mangga manis dengan campuran susu kental manis ">
+                    <div class="mc-img">
+                        <img src="/image/jus/mangga.jpg" alt="Jus Mangga " loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <h3>Jus Mangga  + Susu </h3>
+                        <p class="mc-price">Rp 23.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+                <!---Jus pir -->
+                <div class="mc" data-cat="minuman"
+                     data-name="Jus Pir  " data-price="23000"
+                     data-desc="Jus pir dengan campuran susu yang menghasilkan kesegaran untuk kalian "
+                     data-info="Pir manis dengan campuran susu kental manis ">
+                    <div class="mc-img">
+                        <img src="/image/jus/pirsusu.jpg" alt="Jus Mangga " loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <h3>Jus Pir + susu segar  </h3>
+                        <p class="mc-price">Rp 23.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+                <!---jus Alpukat -->
+                <div class="mc" data-cat="minuman"
+                     data-name="Jus Alpukat  " data-price="23000"
+                     data-desc="Jus Alpukat  dengan campuran susu yang menghasilkan kesegaran untuk kalian "
+                     data-info="Alpukat manis dengan campuran susu kental manis ">
+                    <div class="mc-img">
+                        <img src="/image/jus/alpukat.jpg" alt="Jus Alpukat  " loading="lazy">
+                    </div>
+                    <div class="mc-body">
+                        <h3>Jus Alpukat </h3>
+                        <p class="mc-price">Rp 23.000</p>
+                        <span class="mc-hint">Klik untuk detail &amp; pesan</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Detail Floating Modal -->
+    <div class="pd-overlay" id="pdOverlay">
+        <div class="pd-modal" id="pdModal">
+            <button class="pd-close" id="pdClose" aria-label="Tutup">
+                <svg width="18" height="18" viewBox="0 0 18 18"><line x1="4" y1="4" x2="14" y2="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="14" y1="4" x2="4" y2="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </button>
+            <div class="pd-icon" id="pdIcon"></div>
+            <div class="pd-content">
+                <span class="pd-tag" id="pdTag"></span>
+                <h2 id="pdName"></h2>
+                <p class="pd-price" id="pdPrice"></p>
+                <div class="pd-divider"></div>
+                <p class="pd-desc" id="pdDesc"></p>
+                <div class="pd-info" id="pdInfo"></div>
+                <div class="pd-actions">
+                    <div class="pd-qty">
+                        <button class="pd-qty-btn" id="pdMinus" aria-label="Kurangi">
+                            <svg width="14" height="14" viewBox="0 0 14 14"><line x1="3" y1="7" x2="11" y2="7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                        </button>
+                        <span id="pdQtyNum">1</span>
+                        <button class="pd-qty-btn" id="pdPlus" aria-label="Tambah">
+                            <svg width="14" height="14" viewBox="0 0 14 14"><line x1="3" y1="7" x2="11" y2="7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="7" y1="3" x2="7" y2="11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                        </button>
+                    </div>
+                    <button class="pd-add-btn" id="pdAddBtn">Tambah ke Pesanan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Online / Delivery Platforms -->
+    <section class="sec sec-warm" id="pesan-online" style="align-items: center;">
+        <div class="wrap">
+            <div class="sec-head">
+                <span class="label">Pesan Antar Praktis</span>
+                <h2>Tersedia di Layanan Favorit Kamu</h2>
+                <p style="color: dimgray; font-size: small;">Kamu juga bisa melihat menu menu lain lewat aplikasi layanan Favorit kamu </p>
+                <p class="sec-sub">Kamu juga bisa pesan Gado Gado Prapatan lewat aplikasi pesan-antar makanan online favoritmu:</p>
+            </div>
+            <div class="delivery-grid" style="align-items: center;">
+                <!-- GoFood -->
+                <a href="https://gofood.co.id/jakarta/restaurant/gado-gado-prapatan-ketoprak-senen-94f191aa-f002-4a90-b7f6-57f20818fdff" target="_blank" class="delivery-card delivery-gofood" rel="noopener">
+                    <div class="delivery-icon-wrap">
+                        <svg viewBox="0 0 40 40" width="36" height="36" fill="none">
+                            <circle cx="20" cy="20" r="18" fill="#EE2737"/>
+                            <path d="M20 10c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm-1 5a2 2 0 110 4 2 2 0 010-4zm-4 6h10v2H15v-2zm2 4h6v2h-6v-2z" fill="#fff"/>
+                        </svg>
+                    </div>
+                    <div class="delivery-info">
+                        <span class="delivery-platform">GoFood</span>
+                        <h3>Gado Gado Prapatan</h3>
+                        <span class="delivery-status">Buka di Aplikasi &rarr;</span>
+                    </div>
+                </a>
+
+                <!-- GrabFood -->
+                <a href="https://food.grab.com/id/id/restaurant/gado-gado-prapatan-senen-delivery/6-C2V2A7LUA7UUEE" target="_blank" class="delivery-card delivery-grabfood" rel="noopener">
+                    <div class="delivery-icon-wrap">
+                        <svg viewBox="0 0 40 40" width="36" height="36" fill="none">
+                            <circle cx="20" cy="20" r="18" fill="#00B14F"/>
+                            <path d="M12 20a8 8 0 0114.5-4.8l-2.4 2.4A4.6 4.6 0 1024.6 22h-4.6v-3.4h8v3.4a8 8 0 01-16-2z" fill="#fff"/>
+                        </svg>
+                    </div>
+                    <div class="delivery-info">
+                        <span class="delivery-platform">GrabFood</span>
+                        <h3>Gado Gado Prapatan</h3>
+                        <span class="delivery-status">Buka di Aplikasi &rarr;</span>
+                    </div>
+                </a>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Ulasan -->
+    <section class="sec" id="ulasan">
+        <div class="wrap">
+            <div class="sec-head">
+                <span class="label">Kata Mereka</span>
+                <h2>Ulasan Pelanggan</h2>
+            </div>
+            <div class="review-track">
+                <!-- Review 1: Susy aria (Gojek) -->
+                <div class="review-card">
+                    <div class="rc-top">
+                        <div class="rc-stars">
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                        </div>
+                        <svg class="rc-quote-mark" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                        </svg>
+                    </div>
+                    <blockquote>&ldquo;Gado gado paling enak se-Jakarta :) enak banget sayuran fresh bumbu nyaman&rdquo;</blockquote>
+                    <div class="rc-who">
+                        <div class="rc-av rc-av-gojek" title="Pengguna Gojek">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                                <circle cx="12" cy="12" r="7.5" stroke="#00AA13" stroke-width="3"/>
+                                <circle cx="12" cy="12" r="2.2" fill="#00AA13"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Susy aria</strong><br>
+                            <small>Pengguna Gojek sejak 2019</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2: Jeje (Gojek) -->
+                <div class="review-card">
+                    <div class="rc-top">
+                        <div class="rc-stars">
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                        </div>
+                        <svg class="rc-quote-mark" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                        </svg>
+                    </div>
+                    <blockquote>&ldquo;Sudah sekian kali pesan,makanan selalu memuaskan dr segi rasa dan porsi mantap!!&rdquo;</blockquote>
+                    <div class="rc-who">
+                        <div class="rc-av rc-av-gojek" title="Pengguna Gojek">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                                <circle cx="12" cy="12" r="7.5" stroke="#00AA13" stroke-width="3"/>
+                                <circle cx="12" cy="12" r="2.2" fill="#00AA13"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Jeje</strong><br>
+                            <small>Pengguna Gojek sejak 2019</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3: Freddie (Grab) -->
+                <div class="review-card">
+                    <div class="rc-top">
+                        <div class="rc-stars">
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                            <svg width="15" height="15" viewBox="0 0 14 14" fill="#F59E0B"><path d="M7 1l1.8 3.6L13 5.3l-3 2.9.7 4.1L7 10.4 3.3 12.3l.7-4.1-3-2.9 4.2-.7z"/></svg>
+                        </div>
+                        <svg class="rc-quote-mark" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                        </svg>
+                    </div>
+                    <blockquote>&ldquo;LANGGANAN! BELUM PERNAH FAIL KEMASAN BERSIH PORSI PUAS RASA MANTAP&rdquo;</blockquote>
+                    <div class="rc-who">
+                        <div class="rc-av rc-av-grab" title="Customer Grab">
+                            <span style="font-size:0.65rem; font-weight:800; color:#fff; letter-spacing:-0.3px;">Grab</span>
+                        </div>
+                        <div>
+                            <strong>Freddie</strong><br>
+                            <small>Customer Grab</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="sec sec-dark" id="kontak">
+        <div class="wrap">
+            <div class="kontak-layout">
+                <div class="kontak-left">
+                    <span class="label label-light">Yuk Mampir</span>
+                    <h2>Mau pesan atau mau datang langsung?</h2>
+                    <p>Kami tunggu pesanan kamu lewat WhatsApp. Atau kalau mau makan di tempat, langsung aja dateng!</p>
+                    <a href="https://wa.me/6285183103489?text=Halo%20kak,%20mau%20pesan%20dong!" target="_blank" class="cta cta-wa">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492l4.597-1.472A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.168 0-4.178-.585-5.918-1.608l-.424-.253-2.726.873.732-2.665-.277-.44A9.77 9.77 0 012.182 12c0-5.423 4.395-9.818 9.818-9.818S21.818 6.577 21.818 12s-4.395 9.818-9.818 9.818z"/></svg>
+                        Chat WhatsApp Kami
+                    </a>
+                </div>
+                <div class="kontak-right">
+                    <div class="info-row">
+                        <span class="info-label">Alamat</span>
+                        <span>Jl. Prapatan Baru No. 12, Jakarta Pusat</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">WhatsApp</span>
+                        <span>+62 851-8310-3489</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Buka</span>
+                        <span>Sen &ndash; Min 07:00 &ndash; 21:00</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Delivery</span>
+                        <span>Gratis ongkir radius 1 km</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="foot">
+        <div class="wrap foot-inner">
+            <span>&copy; 2026 Gado Gado Prapatan</span>
+            <span>Jakarta, Indonesia</span>
+        </div>
+    </footer>
+
+    <!-- WA Float -->
+    <a href="https://wa.me/6285183103489?text=Halo%20kak,%20mau%20pesan%20dong!" target="_blank" class="wa-pill" title="Chat WhatsApp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492l4.597-1.472A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.168 0-4.178-.585-5.918-1.608l-.424-.253-2.726.873.732-2.665-.277-.44A9.77 9.77 0 012.182 12c0-5.423 4.395-9.818 9.818-9.818S21.818 6.577 21.818 12s-4.395 9.818-9.818 9.818z"/></svg>
+        <span>Chat Kami</span>
+    </a>
+
+    <!-- Chatbot -->
+    <div class="bot" id="bot">
+        <button class="bot-btn" id="botBtn" aria-label="Buka Chat">
+            <span class="bot-btn-open">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4 16l-2 4 4-2 8 0c2.2 0 4-1.8 4-4V8c0-2.2-1.8-4-4-4H8C5.8 4 4 5.8 4 8v8z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="11" r="1" fill="currentColor"/><circle cx="13" cy="11" r="1" fill="currentColor"/></svg>
+            </span>
+            <span class="bot-btn-close">
+                <svg width="18" height="18" viewBox="0 0 18 18"><line x1="4" y1="4" x2="14" y2="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="14" y1="4" x2="4" y2="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+        </button>
+        <div class="bot-box" id="botBox">
+            <div class="bot-head">
+                <div class="bot-head-dot"></div>
+                <span>Chat &middot; Gado Gado Prapatan</span>
+            </div>
+            <div class="bot-chat" id="botChat"></div>
+            <div class="bot-quick" id="botQuick">
+                <button data-msg="Lihat menu">Menu</button>
+                <button data-msg="Cara pesan">Cara pesan</button>
+                <button data-msg="Jam buka">Jam buka</button>
+                <button data-msg="Alamat restoran">Alamat</button>
+            </div>
+            <form class="bot-form" id="botForm">
+                <input type="text" id="botInput" placeholder="Tulis pesan..." autocomplete="off">
+                <button type="submit" aria-label="Kirim">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M14 2L7 9M14 2l-4 12-3-5-5-3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Cart Bar -->
+    <div class="cart-bar" id="cartBar" style="display:none;">
+        <div class="wrap cart-bar-inner">
+            <div class="cart-bar-left">
+                <strong><span id="cartQty">0</span> item</strong>
+                <span class="cart-bar-sep">&middot;</span>
+                <span class="cart-bar-total" id="cartBarTotal">Rp 0</span>
+            </div>
+            <div class="cart-bar-right">
+                <button class="cart-bar-detail" id="cartDetailBtn">Lihat Detail</button>
+                <button class="cart-bar-wa" id="cartWaBtn">Pesan via WA</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal" style="display:none;">
+        <div class="cart-modal-bg" id="cartModalBg"></div>
+        <div class="cart-modal-box">
+            <div class="cart-modal-head">
+                <h3>Keranjang Pesanan</h3>
+                <button id="cartModalClose" aria-label="Tutup">
+                    <svg width="18" height="18" viewBox="0 0 18 18"><line x1="4" y1="4" x2="14" y2="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><line x1="14" y1="4" x2="4" y2="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </button>
+            </div>
+            <div class="cart-modal-list" id="cartModalList"></div>
+            <div class="cart-modal-foot">
+                <div class="cart-modal-total">
+                    <span>Total</span>
+                    <strong id="cartModalTotal">Rp 0</strong>
+                </div>
+                <button class="cta cta-wa cta-full" id="cartModalWa">Pesan via WhatsApp</button>
+                <button class="cta cta-ghost cta-full cta-sm" id="cartClearBtn">Kosongkan</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
