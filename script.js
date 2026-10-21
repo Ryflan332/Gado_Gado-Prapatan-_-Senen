@@ -225,17 +225,17 @@ const KB = {
         'Hai kak! Selamat datang di Gado Gado Prapatan. Mau tanya apa?',
         'Halo! Mau tau info menu, cara pesan, atau yang lain?'
     ],
-    menu: `*Menu Gado-Gado*\n• Gado Gado Lontong Original — 17rb\n• Gado Gado Lontong Telur Dadar — 22rb\n• Gado Gado Lontong Telur Ceplok — 22rb\n• Gado Gado Lontong Telur Bulat — 21rb\n• Gado Gado Lontong Taburan Kacang Mete — 20rb\n• Gado Gado Lontong Taburan Kacang Tanah — 17rb\n• Gado-Gado Komplit (Lontong + Telur + Es Teh) — 20rb\n• Gado-Gado Bumbu Mete (Mede) — 35rb\n\n*Menu Ketoprak*\n• Ketoprak Original — 17rb\n• Ketoprak Telur Dadar — 21rb\n• Ketoprak Telur Ceplok — 21rb\n• Ketoprak Telur Bulat — 21rb\n• Ketoprak Komplit (Ketoprak + Telur + Es Teh) — 20rb\n• Ketoprak Taburan Kacang Mete (Mede) — 20rb\n\n*Minuman & Pelengkap*\n• Jus Mangga - Susu — 20rb \n• Es Pir + Susu — 20rb\n• Jus Alpukat + Susu  — 23rb`,
+    menu: `*Menu Gado-Gado*\n• Gado Gado Lontong Original — 18rb\n• Gado Gado Lontong Telur Dadar — 20rb\n• Gado Gado Lontong Telur Ceplok — 20rb\n• Gado Gado Lontong Telur Bulat — 20rb\n• Gado Gado Lontong Taburan Kacang Mete — 22rb\n• Gado Gado Lontong Taburan Kacang Tanah — 18rb\n• Gado-Gado Komplit (Lontong + Telur + Es Teh) — 23rb\n• Gado-Gado Bumbu Mete (Mede) — 35rb\n\n*Menu Ketoprak*\n• Ketoprak Original — 18rb\n• Ketoprak Telur Dadar — 20rb\n• Ketoprak Telur Ceplok — 20rb\n• Ketoprak Telur Bulat — 20rb\n• Ketoprak Komplit (Ketoprak + Telur + Es Teh) — 22rb\n• Ketoprak Taburan Kacang Mete (Mede) — 23rb\n\n*Minuman & Pelengkap*\n• Jus Mangga - Susu — 14rb \n• Es Pir + Susu — 14rb\n• Jus Alpukat + Susu  — 14 rb`,
 
     pesan: `Gampang banget:\n1. Pilih menu di website, klik menunya\n2. Atur jumlah, klik "Tambah ke Pesanan"\n3. Cek keranjang di bawah layar\n4. Klik "Pesan via WA"\n5. Otomatis terkirim ke WhatsApp kami!\n\n\nAtau langsung chat WA: \n +62 851-8310-2489`,
 
     jam: `Senin–Sabtu: 07.00–21:00\nMinggu: 07:00–21:00\n\nPesanan online bisa kapan saja, diproses saat jam operasional buka.`,
 
-    alamat: `Jl. Prapatan Raya No. 45\nJakarta Pusat, 10110\n\nLayanan antar gratis radius 3 km (min. 25rb).`,
+    alamat: `Jl. Prapatan Raya No. 12 RT.001 / RW.005 \nJakarta Pusat, 10410 \n\nLayanan antar gratis radius 1 km (min. 25rb).`,
 
     harga: `Daftar harga:\n• Gado-Gado: 17rb – 35rb\n• Ketoprak: 17rb – 21rb\n• Paket Komplit (Gado-Gado/Ketoprak + Es Teh): 20rb\n• Minuman: 23rb \nSangat terjangkau & porsi puas!`,
 
-    promo: `Promo saat ini:\n• Beli 3 porsi gado-gado / ketoprak, gratis 1 Es Teh Manis\n• Paket Hemat: Gado-gado Komplit / Ketoprak Komplit + Es Teh = 38rb`,
+    promo: `Promo saat ini:\n• Beli 3 porsi gado-gado / ketoprak, gratis 1 Es Teh Manis\n• Paket Hemat: Gado-gado Komplit / Ketoprak Komplit + Es Teh = 23rb`,
 
     antar: `Info pesan antar / delivery:\n• WhatsApp: Gratis ongkir radius 3 km (min. 25rb)\n• GoFood: Buka aplikasi Gojek cari "Gado Gado Prapatan"\n• GrabFood: Tersedia di GrabFood\n• ShopeeFood: Tersedia di ShopeeFood\n\nEstimasi pengantaran 30–45 menit.`,
 
