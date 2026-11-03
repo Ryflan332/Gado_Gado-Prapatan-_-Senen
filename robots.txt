@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gado-gado-prapatan-senen.vercel.app/sitemap.xml
